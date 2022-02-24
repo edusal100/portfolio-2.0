@@ -1,0 +1,57 @@
+html {
+    font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #28293E;
+    font-family: 'Epilogue', sans-serif;
+    color: $white;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none;
+}
+
+// Spacing
+
+.container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+// Flexbox
+
+.flex {
+    display: flex;
+
+    &-jc-sb {
+    justify-content: space-between;
+    }
+
+    &-jc-c {
+        justify-content: center;
+        }
+
+    &-ai-c {
+    align-items: center;
+    }
+}
+
+// Buttons
+
+.button {
+    padding: .5rem;
+    border: solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: $white;
+    font-weight: 900;
+}
