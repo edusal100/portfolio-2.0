@@ -18,6 +18,7 @@ body {
 
 a, a:visited, a:hover {
     text-decoration: none;
+    color: $white;
 }
 
 // Spacing
@@ -51,7 +52,21 @@ a, a:visited, a:hover {
     padding: .5rem;
     border: solid 1px;
     border-radius: 5px;
-    cursor: pointer;
     color: $white;
     font-weight: 900;
+}
+
+//Visibility
+.hide_for_mobile {
+    //hide for tablet and mobile
+    @include breakpoint_down (medium){
+        display: none;
+    }
+}
+
+.hide_for_desktop {
+    //hide for desktop viewport widths
+    @include breakpoint_up (large){
+        display: none;
+    }
 }
