@@ -1,0 +1,17 @@
+.header{
+
+    nav {
+        padding-top: 1.0625rem;
+        padding-bottom: 1.0625rem;
+    }
+
+    &_logo{
+           h4{
+               margin-left: 16px;
+               font-size: $font-md;
+               font-weight: 700;
+           }
+    }
+
+
+}
