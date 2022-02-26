@@ -52,11 +52,12 @@ a, a:visited, a:hover {
 }
 
 .button {
-  padding: .5rem;
+  padding: .75rem 2rem;
   border: solid 1px;
   border-radius: 5px;
   color: white;
   font-weight: 900;
+  font-size: 0.875rem;
 }
 
 @media (max-width: 63.9375em) {
@@ -72,12 +73,21 @@ a, a:visited, a:hover {
 }
 
 .header nav {
-  padding-top: 1.0625rem;
-  padding-bottom: 1.0625rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .header_logo h4 {
   margin-left: 16px;
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+.header_links a {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.header_links a:not(:last-child) {
+  margin-right: 4rem;
 }

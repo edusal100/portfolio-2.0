@@ -1,16 +1,26 @@
 .header{
 
     nav {
-        padding-top: 1.0625rem;
-        padding-bottom: 1.0625rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     &_logo{
-           h4{
+            h4{
                margin-left: 16px;
                font-size: $font-md;
                font-weight: 700;
            }
+    }
+
+    &_links{
+        a{
+            font-size: $font-sm;
+            opacity: 0.8;
+            &:not(:last-child){
+                margin-right: 4rem;
+            }
+        }
     }
 
 
