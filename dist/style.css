@@ -23,8 +23,8 @@ a, a:visited, a:hover {
 }
 
 .container {
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .flex {
@@ -72,15 +72,25 @@ a, a:visited, a:hover {
   }
 }
 
-.header nav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .header_logo h4 {
   margin-left: 16px;
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+.header_toggle span {
+  display: block;
+  width: 26px;
+  height: 3px;
+  background-color: white;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  -webkit-transform-origin: 3px 1px;
+          transform-origin: 3px 1px;
+}
+
+.header_toggle span:not(:last-child) {
+  margin-bottom: 5px;
 }
 
 .header_links a {
@@ -89,5 +99,5 @@ a, a:visited, a:hover {
 }
 
 .header_links a:not(:last-child) {
-  margin-right: 4rem;
+  margin-right: 5.5rem;
 }

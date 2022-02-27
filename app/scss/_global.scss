@@ -24,8 +24,8 @@ a, a:visited, a:hover {
 // Spacing
 
 .container {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 // Flexbox
@@ -53,7 +53,7 @@ a, a:visited, a:hover {
     border: solid 1px;
     border-radius: 5px;
     color: $white;
-    font-weight: 900;
+    font-weight: $bold;
     font-size: $font-xsm;
 }
 
