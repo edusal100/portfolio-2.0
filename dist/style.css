@@ -72,6 +72,20 @@ a, a:visited, a:hover {
   }
 }
 
+.header.open .header_toggle > span:first-child {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.header.open .header_toggle > span:nth-child(2) {
+  opacity: 0;
+}
+
+.header.open .header_toggle > span:last-child {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
 .header_logo h4 {
   margin-left: 16px;
   font-size: 1.5rem;
@@ -85,8 +99,8 @@ a, a:visited, a:hover {
   background-color: white;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
-  -webkit-transform-origin: 3px 1px;
-          transform-origin: 3px 1px;
+  -webkit-transform-origin: 1.5px 1px;
+          transform-origin: 1.5px 1px;
 }
 
 .header_toggle span:not(:last-child) {
