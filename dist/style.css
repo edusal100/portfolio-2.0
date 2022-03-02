@@ -72,6 +72,60 @@ a, a:visited, a:hover {
   }
 }
 
+.header .overlay {
+  position: absolute;
+  background: #EF6D58;
+  top: 0;
+  left: 0;
+  width: 101%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity .5s, visibility .5s, height .5s;
+  transition: opacity .5s, visibility .5s, height .5s;
+  z-index: 2;
+}
+
+.header .overlay.view {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+  width: 101%;
+  z-index: 2;
+  -webkit-transition: opacity .5s, visibility .5s, height .5s;
+  transition: opacity .5s, visibility .5s, height .5s;
+}
+
+.header .overlay:after {
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.header .mobile_nav {
+  margin-top: 60px;
+  margin-left: 15px;
+}
+
+.header .mobile_nav li {
+  list-style-type: none;
+  margin: 28px auto;
+  font-size: x-large;
+}
+
+.header .mobile_nav a {
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+.header .mobile_nav a:hover {
+  color: #28293E;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  border: solid 1px transparent;
+  background: white;
+  padding: 10px;
+}
+
 .header.open .header_toggle > span:first-child {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -90,6 +144,10 @@ a, a:visited, a:hover {
   margin-left: 16px;
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+.header_toggle {
+  z-index: 3;
 }
 
 .header_toggle span {

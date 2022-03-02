@@ -1,5 +1,54 @@
 .header{
 
+    .overlay {
+        position: absolute;
+        background: $orange;
+        top:0;
+        left:0;
+        width: 101%;
+        height: 0%;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity .5s,
+        visibility .5s, height .5s;
+        z-index: 2;
+        
+        &.view {
+            opacity: 1;
+            visibility: visible;
+            height: 100%;
+            width: 101%;
+            z-index: 2;
+            transition: opacity .5s,
+            visibility .5s, height .5s;
+        }
+        &:after {
+            transition: .5s;
+        }
+
+    }
+
+    .mobile_nav{
+        margin-top: 60px;
+        margin-left: 15px;
+    li {
+        list-style-type: none;
+        margin: 28px auto;
+        font-size: x-large;
+        }
+        a{
+            letter-spacing: 2px;
+            padding: 10px;
+        }
+        a:hover{
+            color: $darkblue;
+            transition: all .5s ease;
+            border: solid 1px transparent;
+            background: $white;
+            padding: 10px;
+        }
+    }
+
      // Hamburger Open Styles
 
     &.open {
@@ -26,6 +75,8 @@
     }
 
     &_toggle { // Mobile Menu Toggle
+
+        z-index: 3;
 
         span {
             display: block;
