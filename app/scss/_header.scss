@@ -1,11 +1,13 @@
 .header{
 
+// Mobile overlay menu
+
     .overlay {
         position: absolute;
         background: $orange;
         top:0;
         left:0;
-        width: 101%;
+        width: 100%;
         height: 0%;
         opacity: 0;
         visibility: hidden;
@@ -17,7 +19,7 @@
             opacity: 1;
             visibility: visible;
             height: 100%;
-            width: 101%;
+            width: 100%;
             z-index: 2;
             transition: opacity .5s,
             visibility .5s, height .5s;
@@ -27,6 +29,8 @@
         }
 
     }
+
+// Mobile navigation style
 
     .mobile_nav{
         margin-top: 60px;
@@ -42,8 +46,9 @@
         }
         a:hover{
             color: $darkblue;
-            transition: all .5s ease;
-            border: solid 1px transparent;
+            transition: color 0.5s, transform 0.2s, background-color 0.2s;
+            border-radius: 3px;
+            border: solid 3px transparent;
             background: $white;
             padding: 10px;
         }
@@ -74,7 +79,7 @@
            }
     }
 
-    &_toggle { // Mobile Menu Toggle
+    &_toggle { // Mobile Menu Toggle style and animation
 
         z-index: 3;
 
@@ -92,6 +97,8 @@
         }
     }
 
+    // Desktop navigation style
+
     &_links{
         a{
             font-size: $font-sm;
@@ -100,6 +107,20 @@
                 margin-right: 5.5rem;
             }
         }
+        a:hover{
+            color: $darkblue;
+            transition: color 0.5s, transform 0.2s, background-color 0.2s;
+            border-radius: 3px;
+            border: solid 3px transparent;
+            background: $white;
+            padding: 10px;
+        }
+    }
+
+    .button:hover {
+            color: $darkblue;
+            background: $white;
+            transition: all .2s;
     }
 
 
