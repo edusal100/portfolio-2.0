@@ -44,6 +44,10 @@ a, a:visited, a:hover {
     &-ai-c {
     align-items: center;
     }
+
+    &-column{
+        flex-direction: column;
+    }
 }
 
 //Visibility

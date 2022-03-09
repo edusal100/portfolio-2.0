@@ -1,0 +1,19 @@
+.hero {
+    h5{
+        color: $orange;
+        font-weight: $xlight;
+        font-size: $font-sm;
+        letter-spacing: 3px;
+        margin-bottom: .5rem;
+    }
+    h1{
+        font-weight: $med;
+        font-size: $font_xlarge;
+        letter-spacing: -2px;
+        margin-top: 1.5rem;
+    }
+    p{
+        color: $transparent_gray;
+        font-size: $font-sm;
+    }
+}
