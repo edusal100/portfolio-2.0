@@ -101,27 +101,53 @@
 
     &_links{
         a{
+            position: relative;
             font-size: $font-sm;
-            opacity: 0.8;
+            color: $transparent_gray;
+            transition: color 300ms linear;
             &:not(:last-child){
                 margin-right: 5.5rem;
             }
-        }
-        a:hover{
-            color: $darkblue;
-            transition: color 0.5s, transform 0.2s, background-color 0.2s;
-            border-radius: 3px;
-            border: solid 3px transparent;
-            background: $white;
-            padding: 10px;
+
+            &::after{
+                content: "";
+                display: block;
+                position: absolute;
+                height: 3px;
+                width: 0;
+                left: 0;
+                right: 0;
+                bottom: -10px;
+                background: $orange;
+                transition: 0.3s;
+            }
+
+            &:hover {
+                color:$white;
+            }
+
+            &:hover:after {
+                width: 100%;
+            }
         }
     }
 
-    .button:hover {
-            color: $darkblue;
-            background: $white;
-            transition: all .2s;
-    }
+    // Button
 
+.button {
+    padding: .75rem 2rem;
+    border: solid 1px $transparent_gray;
+    border-radius: 5px;
+    color: $transparent_gray;
+    font-weight: $bold;
+    font-size: $font-xsm;
+    
+    &:hover {
+        color: $white;
+        border: solid 1px $white;
+        transition: all 0.3s ease-in-out;
+}
+    
+}
 
 }

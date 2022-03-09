@@ -51,15 +51,6 @@ a, a:visited, a:hover {
           align-items: center;
 }
 
-.button {
-  padding: .75rem 2rem;
-  border: solid 1px rgba(255, 255, 255, 0.5);
-  border-radius: 5px;
-  color: white;
-  font-weight: 900;
-  font-size: 0.875rem;
-}
-
 @media (max-width: 63.9375em) {
   .hide_for_mobile {
     display: none;
@@ -169,29 +160,51 @@ a, a:visited, a:hover {
 }
 
 .header_links a {
+  position: relative;
   font-size: 1rem;
-  opacity: 0.8;
+  color: rgba(255, 255, 255, 0.6);
+  -webkit-transition: color 300ms linear;
+  transition: color 300ms linear;
 }
 
 .header_links a:not(:last-child) {
   margin-right: 5.5rem;
 }
 
+.header_links a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 0;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  background: #EF6D58;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
 .header_links a:hover {
-  color: #28293E;
-  -webkit-transition: color 0.5s, background-color 0.2s, -webkit-transform 0.2s;
-  transition: color 0.5s, background-color 0.2s, -webkit-transform 0.2s;
-  transition: color 0.5s, transform 0.2s, background-color 0.2s;
-  transition: color 0.5s, transform 0.2s, background-color 0.2s, -webkit-transform 0.2s;
-  border-radius: 3px;
-  border: solid 3px transparent;
-  background: white;
-  padding: 10px;
+  color: white;
+}
+
+.header_links a:hover:after {
+  width: 100%;
+}
+
+.header .button {
+  padding: .75rem 2rem;
+  border: solid 1px rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 900;
+  font-size: 0.875rem;
 }
 
 .header .button:hover {
-  color: #28293E;
-  background: white;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  color: white;
+  border: solid 1px white;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
