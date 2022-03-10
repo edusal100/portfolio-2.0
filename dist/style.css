@@ -23,8 +23,15 @@ a, a:visited, a:hover {
 }
 
 .container {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+}
+
+.container_hero {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 3rem;
 }
 
 .flex {
@@ -145,6 +152,8 @@ a, a:visited, a:hover {
   margin-left: 16px;
   font-size: 1.5rem;
   font-weight: 700;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .header_toggle {
@@ -221,7 +230,8 @@ a, a:visited, a:hover {
   font-weight: 400;
   font-size: 1rem;
   letter-spacing: 3px;
-  margin-bottom: .5rem;
+  margin-bottom: auto;
+  margin-top: auto;
 }
 
 .hero h1 {
@@ -229,9 +239,23 @@ a, a:visited, a:hover {
   font-size: 4.5rem;
   letter-spacing: -2px;
   margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .hero p {
   color: rgba(255, 255, 255, 0.6);
   font-size: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.hero a {
+  background: #EF6D58;
+  border-radius: 5px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding: .75rem 1.7rem;
+  margin-top: 2.125rem;
+  font-size: 0.875rem;
+  font-weight: 900;
 }

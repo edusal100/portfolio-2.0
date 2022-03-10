@@ -4,16 +4,29 @@
         font-weight: $xlight;
         font-size: $font-sm;
         letter-spacing: 3px;
-        margin-bottom: .5rem;
+        margin-bottom: auto;
+        margin-top:auto;
     }
     h1{
         font-weight: $med;
         font-size: $font_xlarge;
         letter-spacing: -2px;
         margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
     }
     p{
         color: $transparent_gray;
         font-size: $font-sm;
+        margin-top:auto;
+        margin-bottom: auto;
+    }
+    a{
+        background: $orange;
+        border-radius: 5px;
+        align-self: flex-start;
+        padding: .75rem 1.7rem;
+        margin-top: 2.125rem;
+        font-size: $font-xsm;
+        font-weight: $bold;
     }
 }
