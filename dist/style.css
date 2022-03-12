@@ -239,7 +239,16 @@ a, a:visited, a:hover {
   font-size: 4.5rem;
   letter-spacing: -2px;
   margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
+}
+
+.hero h2 {
+  font-weight: 800;
+  font-size: 3.5rem;
+  color: #EF6D58;
+  opacity: 6 0%;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
 }
 
 .hero p {
@@ -258,4 +267,8 @@ a, a:visited, a:hover {
   margin-top: 2.125rem;
   font-size: 0.875rem;
   font-weight: 900;
+}
+
+.hero img {
+  width: 90%;
 }
