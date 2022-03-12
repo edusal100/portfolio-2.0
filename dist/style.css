@@ -23,14 +23,14 @@ a, a:visited, a:hover {
 }
 
 .container {
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   padding-top: 1rem;
 }
 
 .container_hero {
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   padding-top: 3rem;
 }
 
@@ -270,5 +270,6 @@ a, a:visited, a:hover {
 }
 
 .hero img {
-  width: 90%;
+  width: 100%;
+  height: auto;
 }
