@@ -24,14 +24,14 @@ a, a:visited, a:hover {
 // Spacing
 
 .container {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     padding-top: 1rem;
 }
 
 .container_hero {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     padding-top: 3rem;
 }
 
@@ -69,5 +69,12 @@ a, a:visited, a:hover {
     //hide for desktop viewport widths
     @include breakpoint_up (large){
         display: none;
+    }
+}
+
+.column_mobile{
+    @include breakpoint_down (small) {
+        flex-direction: column;
+
     }
 }
