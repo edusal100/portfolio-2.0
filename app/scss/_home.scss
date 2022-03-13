@@ -155,20 +155,26 @@
         align-self: flex-start;
     }
 
+    .image_caption{
+        position: absolute;
+        bottom:1rem;
+        left: 3rem; 
+    }
+
     //Button Portfolio
 
 .design_button {
-    position: absolute;
+    margin-bottom: 0px; 
     height: 2.375rem;
     width: auto;
-    bottom:5rem;
-    left: 3rem;
+    img{
+        height: 100%;
+        width: auto;
+    }
 }
 h3{
-    position: absolute;
     font-weight: $light;
     font-size: $font_md;
-    bottom: 1rem;
-    left: 3rem;
+    margin-top: 0.5rem;
 }
 }
