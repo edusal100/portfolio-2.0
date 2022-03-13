@@ -358,10 +358,17 @@ a, a:visited, a:hover {
   margin-bottom: 0px;
 }
 
+.portfolio .latest_work {
+  margin-bottom: 3rem;
+  margin-top: 2.5rem;
+}
+
 .portfolio h2 {
   font-size: 3.5rem;
-  margin-top: 1.5rem;
-  margin-bottom: 4rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .portfolio .image_1 {
@@ -387,4 +394,9 @@ a, a:visited, a:hover {
 
 .portfolio img {
   width: 100%;
+}
+
+.portfolio .button {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }

@@ -113,10 +113,17 @@
         margin-top: 2.75rem;
         margin-bottom: 0px;
     }
+
+    .latest_work {
+        margin-bottom: 3rem;
+        margin-top: 2.5rem;
+    }
+
     h2{
         font-size: $font_large;
-        margin-top: 1.5rem;
-        margin-bottom: 4rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        align-self: flex-start;
     }
 
     .image_1 {
@@ -140,5 +147,8 @@
 
     img{
         width: 100%;
+    }
+    .button {
+        align-self: flex-start;
     }
 }
