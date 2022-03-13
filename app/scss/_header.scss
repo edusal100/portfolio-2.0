@@ -134,22 +134,4 @@
         }
     }
 
-    // Button
-
-.button {
-    padding: .75rem 2rem;
-    border: solid 1px $transparent_gray;
-    border-radius: 5px;
-    color: $transparent_gray;
-    font-weight: $bold;
-    font-size: $font-xsm;
-    
-    &:hover {
-        color: $white;
-        border: solid 1px $white;
-        transition: all 0.3s ease-in-out;
-}
-    
-}
-
 }
