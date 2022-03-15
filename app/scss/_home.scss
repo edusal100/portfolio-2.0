@@ -246,11 +246,36 @@ h3{
 
 .contact_section {
     margin-top: 3rem;
+    margin-bottom: 6.25rem;
+
+    .img{
+        width: 48px;
+        height: 48px;
+    }
+
+    .space {
+        padding: 1.5rem;
+    }
 
     .contact{
         background: $white;
         border-radius: 5px;
         padding: 3rem;
+    }
+
+    h5{
+        color: $orange;
+        font-size: $font-sm;
+        font-weight: $xlight;
+        letter-spacing: 3px;
+        margin-bottom: 0rem;
+    }
+
+    h2 {
+        font-size: $font_large;
+        font-weight: $med;
+        margin-top: 1.5rem;
+        margin-bottom: 0rem;
     }
 
     h4{
@@ -261,7 +286,26 @@ h3{
     input {
         border-radius: 5px;
     }
+    p {
+        color: $white;
+        margin-left: 1.5rem;
+    }
+    .p_digital {
+        color: $transparent_gray;
+        margin-left: 0rem;
+        margin-top: 1.5rem;
+    }
+        
+}
 
+.footer{
+    p {
+        color: $transparent_gray
+    }
+}
 
+hr {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 

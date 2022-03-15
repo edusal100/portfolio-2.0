@@ -530,12 +530,37 @@ p {
 
 .contact_section {
   margin-top: 3rem;
+  margin-bottom: 6.25rem;
+}
+
+.contact_section .img {
+  width: 48px;
+  height: 48px;
+}
+
+.contact_section .space {
+  padding: 1.5rem;
 }
 
 .contact_section .contact {
   background: white;
   border-radius: 5px;
   padding: 3rem;
+}
+
+.contact_section h5 {
+  color: #EF6D58;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-bottom: 0rem;
+}
+
+.contact_section h2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
 }
 
 .contact_section h4 {
@@ -545,4 +570,24 @@ p {
 
 .contact_section input {
   border-radius: 5px;
+}
+
+.contact_section p {
+  color: white;
+  margin-left: 1.5rem;
+}
+
+.contact_section .p_digital {
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 0rem;
+  margin-top: 1.5rem;
+}
+
+.footer p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+hr {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
