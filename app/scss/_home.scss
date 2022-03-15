@@ -1,6 +1,10 @@
 .hero {
     padding-bottom: 8.28rem;
 
+    .space {
+        padding: 2rem;
+    }
+
     h5{
         color: $orange;
         font-weight: $xlight;
@@ -29,10 +33,10 @@
     p{
         color: $transparent_gray;
         font-size: $font-sm;
-        margin-top:auto;
-        margin-bottom: auto;
+        font-weight: $xlight;
         line-height: 2rem;
     }
+
     a{
         background: $orange;
         border-radius: 5px;
@@ -82,22 +86,11 @@
         width: 80px;
         height: 80px;
     }
-    p{
-        color: $light_brown;
-        font-size: $font-sm;
-        font-weight: $xlight;
-        line-height: 2rem;
-
-    }
     h6{
         font-size: $font-sm;
         font-weight: $xlight;
         color: $dark_brown;
         margin-left: 1rem;
-    }
-    .border_menu{
-        border: 1px solid $dark_cream;
-        padding: 3rem;
     }
 
 }
@@ -105,6 +98,9 @@
 .portfolio {
     padding-bottom: 6.25rem;
 
+    .space {
+        padding: 1rem;
+    }
 
     h5 {
         color: $orange;
@@ -177,4 +173,73 @@ h3{
     font-size: $font_md;
     margin-top: 0.5rem;
 }
+}
+
+.about {
+    background: $light_cream;
+
+.about_2 {
+    margin-top: 3.5rem;
+}
+
+    img {
+        width: 100%;
+    }
+
+    .space {
+        padding: 1.5rem;
+    }
+
+    h5{
+        font-size: $font-sm;
+        font-weight: $xlight;
+        color: $orange;
+        letter-spacing: 3px;
+        margin-bottom: 0px;
+    }
+    h2{
+        font-size: $font-large;
+        font-weight: $med;
+        color: $dark_brown;
+        margin-top: 1.5rem;
+        margin-bottom: 0rem;
+    }
+    h4 {
+        color: $dark_brown;
+        font-size: $font-md;
+        font-weight: $xlight;
+        margin-top: 1.5rem;
+        margin-bottom: 0rem;
+    }
+    a{
+        color: $dark_brown;
+        font-weight: $bold;
+        font-size: $font-xsm;
+        background: $white;
+        border-radius: 5px;
+        padding: 1rem 1.5rem;
+        align-self: flex-start;
+    }
+
+    .calendar {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .about_data {
+        margin-top: 5rem;
+        margin-bottom: 6.25rem;
+    }
+    h3{
+        color: $dark_brown;
+        font-size: $font_mdx;
+        font-weight: $med;
+        margin-bottom: 0rem;
+        margin-left: 3rem;
+    }
+    .about_p {
+        margin-top: 0rem;
+        margin-left: 3rem;
+    }
+
 }

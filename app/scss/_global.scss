@@ -67,6 +67,10 @@ a, a:visited, a:hover {
         justify-content: center;
         }
 
+    &-jc-sa{
+        justify-content: space-around;
+    }
+
     &-ai-c {
     align-items: center;
     }
@@ -74,6 +78,10 @@ a, a:visited, a:hover {
     &-column{
         flex-direction: column;
     }
+    &-ai-sb{
+        align-items: space-between;
+    }
+
 }
 
 //Visibility
@@ -96,4 +104,25 @@ a, a:visited, a:hover {
         flex-direction: column;
 
     }
+}
+
+.column_mobile_tablet{
+
+    @include breakpoint_down (medium) {
+        flex-direction: column;
+
+    }
+}
+
+//Global font Styles
+p{
+    color: $light_brown;
+    font-size: $font-sm;
+    font-weight: $xlight;
+    line-height: 2rem;
+}
+
+.border_menu{
+    border: 1px solid $dark_cream;
+    padding: 3rem;
 }
