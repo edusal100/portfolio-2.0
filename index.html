@@ -24,19 +24,19 @@
         <div class="overlay">
             <ul class="mobile_nav">
                 <li>
-                    <a href="">Home</a>
+                    <a href="#hero">Home</a>
                 </li>
                 <li>
-                    <a href="">About</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="">Services</a>
+                    <a href="#service">Services</a>
                 </li>
                 <li>
-                    <a href="">Works</a>
+                    <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -57,18 +57,18 @@
               </a>
 
             <div class="header_links hide_for_mobile">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Services</a>
-                <a href="">Works</a>
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#service">Services</a>
+                <a href="#portfolio">Portfolio</a>
             </div>
 
-            <a class="button hide_for_mobile" href="/">CONTACT</a>
+            <a class="button hide_for_mobile" href="#contact">CONTACT</a>
         </nav>
 
         <!-- Hero Section -->
 
-        <section class="hero container_hero flex flex-jc-sb flex-ai-c column_mobile">
+        <section id="hero" class="hero container_hero flex flex-jc-sb flex-ai-c column_mobile">
 
             <div class="hero_left flex flex-column">
                 <h5>Hi, my name is</h5>
@@ -88,7 +88,7 @@
 
     <!-- Service Section -->
 
-    <section class="service container_hero flex flex-column flex-ai-c">
+    <section id="service" class="service container_hero flex flex-column flex-ai-c">
         <h5>SERVICE</h5>
         <h2>How Can I Help<br>You With</h2>
 
@@ -132,7 +132,7 @@
 
     <!-- Portfolio Section -->
 
-    <section class="portfolio container_hero flex flex-column">
+    <section id="portfolio" class="portfolio container_hero flex flex-column">
         <h5>PORTFOLIO</h5>
         <div class="latest_work flex flex-jc-sb flex-ai-c column_mobile">
             <h2>Latest Work</h2>
@@ -197,9 +197,46 @@
                                 <p class="about_p">Projects Done</p>
                             </div>
                         </div>
-                    </div>
+                    </div>     
+    </section>
 
-            
+    <!-- Contact Section -->    
+
+    <section id="contact" class="contact_section container_hero flex flex-ai-c flex-jc-sb">
+        <div class="contact flex flex-column">
+            <h4>Get In Touch</h4>
+            <form action="#" method="get">
+                <label for="email"></label> 
+                <input type="text" placeholder="Your email"><br><br>
+                <label for="subject"></label>
+                <input type="text" placeholder="Subject"><br><br>
+                <label for="Message"></label>
+                <input type="text" placeholder="Message"><br><br>
+                <input type="submit" value="Submit">
+              </form> 
+        </fieldset>
+         </form>
+        </div>
+
+
+        <div class="flex flex-column">
+            <h5>CONTACT</h5
+            <h2>Contact Me</h2>
+            <p>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.</p>
+            <div class="flex">
+                <img src="/images/address.png" alt="">
+                <p>2247 Lunetta Street, TX 76301</p>
+            </div>
+            <div class="flex">
+                <img src="/images/phone.png" alt="">
+                <p>2247 Lunetta Street, TX 76301</p>
+    
+            </div>
+            <div class="flex">
+                <img src="images/email.png" alt="">
+                <p>2247 Lunetta Street, TX 76301</p>
+            </div>
+        </div>
 
     </section>
 

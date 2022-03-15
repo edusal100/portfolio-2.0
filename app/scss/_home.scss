@@ -243,3 +243,25 @@ h3{
     }
 
 }
+
+.contact_section {
+    margin-top: 3rem;
+
+    .contact{
+        background: $white;
+        border-radius: 5px;
+        padding: 3rem;
+    }
+
+    h4{
+        font-size: $font-md;
+        color: $dark_brown;
+    }
+
+    input {
+        border-radius: 5px;
+    }
+
+
+}
+

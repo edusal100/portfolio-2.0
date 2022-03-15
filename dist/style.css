@@ -527,3 +527,22 @@ p {
   margin-top: 0rem;
   margin-left: 3rem;
 }
+
+.contact_section {
+  margin-top: 3rem;
+}
+
+.contact_section .contact {
+  background: white;
+  border-radius: 5px;
+  padding: 3rem;
+}
+
+.contact_section h4 {
+  font-size: 1.5rem;
+  color: #391400;
+}
+
+.contact_section input {
+  border-radius: 5px;
+}
